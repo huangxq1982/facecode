@@ -51,7 +51,7 @@ body {
 .photoBg.noPhoto {
     background-image: none;
     height: auto;
-    margin-top: 150px;
+    padding-top: 150px;
 }
 .photoBg .photoCon {
     background-image:linear-gradient(#bf9bb6, #8273b3);
@@ -69,7 +69,6 @@ body {
     border-radius: 15px;
 }
 .tipCon {
-    font-size: 32px;
     color: #DED0FD;
     margin-top: -50px;
     text-align: center;
