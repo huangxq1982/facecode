@@ -113,7 +113,7 @@ body {
     background-image:linear-gradient(#402570, #987ACD);
 }
 .genderCon {
-    border-top: 1px dashed #766B80;
+    border-top: 2px dashed #766B80;
     height: 120px;
     font-size: 36px;
     width: 100%;
@@ -139,7 +139,7 @@ body {
     background: #54419B;
 }
 .birthdayCon {
-    border-top: 1px dashed #766B80;
+    border-top: 2px dashed #766B80;
     height: 120px;
     font-size: 36px;
     width: 100%;
