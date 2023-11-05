@@ -6,8 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image:linear-gradient(#030309, #0b132e);
-    height: 100vh;
+    background-image:linear-gradient(#030309, #0b132e) ;
     font-family: 'Microsoft YaHei', '微软雅黑';
     font-size: 32px;
     color: #E8D5EE;
@@ -24,7 +23,7 @@ body {
     align-items: center;
 }
 .topTitleArea {
-    height: 100px;
+    height: 120px;
     display: flex;
     width: 100%;
     color: #fff;
@@ -52,6 +51,7 @@ body {
 .photoBg.noPhoto {
     background-image: none;
     height: auto;
+    margin-top: 150px;
 }
 .photoBg .photoCon {
     background-image:linear-gradient(#bf9bb6, #8273b3);
