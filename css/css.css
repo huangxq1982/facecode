@@ -9,8 +9,8 @@ body {
     background-image:linear-gradient(#030309, #0b132e) ;
     font-family: 'Microsoft YaHei', '微软雅黑';
     font-size: 32px;
-    height: 100vh;
     color: #E8D5EE;
+    min-height: 100vh;
 }
 .container {
     background-image: url("../images/header.png");
@@ -100,7 +100,14 @@ body {
     border: 2px dashed #ff0000;
     color: #ff0000;
 }
-.button {
+.form {
+    width: 90%; margin-top: 40px;
+}
+.btnCon {
+    height: 140px; display: flex; align-items: end; width: 100%; justify-content: center;
+    padding-bottom: 50px;
+}
+.submitBtn {
     background-image:linear-gradient(#987ACD, #402570);
     height: 100px;
     width: 600px;
@@ -109,7 +116,7 @@ body {
     font-size: 36px;
     color: #DEC0F5;
 }
-.button:active {
+.submitBtn:active {
     background-image:linear-gradient(#402570, #987ACD);
 }
 .genderCon {
@@ -140,6 +147,7 @@ body {
 }
 .birthdayCon {
     border-top: 2px dashed #766B80;
+    border-bottom: 2px dashed #766B80;
     height: 120px;
     font-size: 36px;
     width: 100%;
