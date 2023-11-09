@@ -173,7 +173,8 @@ body {
 }
 .contentCon {
     width: 90%;
-    background-image:linear-gradient(#4B54A5, #1D2038);
+    /*background-image:linear-gradient(#4B54A5, #1D2038);*/
+    background-color: #1D2038;
     border-radius: 15px;
     font-size: 2em;
     margin-top: 20px;
